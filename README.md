@@ -10,7 +10,8 @@
 1) Install poetry
 2) `cd inspyollama-client`
 3) `poetry install`
-4) Open python
+4) `poetry shell`
+5) Open python
 
 ```python
 from inspyollama_client.client import get_client, send_and_receive_no_stream
