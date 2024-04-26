@@ -15,3 +15,10 @@ Description:
     
 
 """
+from inspyollama_client.cli.dialogs import Dialog
+
+
+def get_client(host, port):
+    pass
+
+

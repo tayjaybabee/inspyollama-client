@@ -8,7 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
 prompt-toolkit = "^3.0.43"
+ollama = "^0.1.9"
+yaspin = "^3.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ptipython = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core"]

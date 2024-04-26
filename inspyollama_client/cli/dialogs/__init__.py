@@ -80,6 +80,10 @@ class Dialog:
         return self.__built
 
     @property
+    def dialog(self):
+        return self.__dialog
+
+    @property
     def fired(self):
         return self.__response is not None
 
