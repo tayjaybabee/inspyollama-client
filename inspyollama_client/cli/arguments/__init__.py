@@ -34,3 +34,12 @@ PARSER.add_argument(
     required=False,
     default='llama3',
 )
+
+PARSER.add_argument(
+    '--config-file',
+    type=str,
+    help='The path to the config file.',
+    required=False,
+)
+
+ARGUMENTS = PARSER.parse_args()
